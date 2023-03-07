@@ -43,3 +43,15 @@ const ourTeam =
     ]
 
 console.log(ourTeam);
+
+console.log(ourTeam[0]);
+
+
+//stama i valori degli oggetti dell'array
+for (let i = 0; i < ourTeam.length; i++) {
+    for (let key in ourTeam[i]) {
+        console.log(ourTeam[i][key])
+    }
+
+}
+
